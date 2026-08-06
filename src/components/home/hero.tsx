@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { siteConfig } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -26,7 +25,7 @@ export function Hero() {
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-1.5 text-xs font-medium tracking-wide text-amber-300 uppercase"
         >
           <Sparkles className="size-3.5" />
-          Authorized Nikon Dealer since {siteConfig.founded}
+          Nikon Experience Zone
         </motion.div>
 
         <motion.h1

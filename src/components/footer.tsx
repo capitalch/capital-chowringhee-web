@@ -16,9 +16,8 @@ export function Footer() {
             </span>
           </div>
           <p className="mt-4 max-w-xs text-sm text-zinc-400">
-            Authorized Nikon dealer in the heart of Kolkata since{" "}
-            {siteConfig.founded}. Cameras, lenses and accessories, backed by
-            real photographic expertise.
+            Nikon Experience Zone in the heart of Kolkata. Cameras, lenses
+            and accessories, backed by real photographic expertise.
           </p>
         </div>
 

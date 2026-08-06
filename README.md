@@ -1,6 +1,6 @@
 # Capital Chowringhee Pvt Ltd — Nikon Experience Zone
 
-Static Next.js website for Capital Chowringhee Pvt Ltd, an authorized Nikon dealer in Kolkata since 1991.
+Static Next.js website for Capital Chowringhee Pvt Ltd, Nikon Experience Zone in Kolkata.
 
 ## Stack
 

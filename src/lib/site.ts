@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "Capital Chowringhee Pvt Ltd",
   tagline: "Nikon Experience Zone, Kolkata",
   description:
-    "Authorized Nikon dealer in Kolkata since 1991. Explore the latest Nikon mirrorless cameras, lenses, speedlights and accessories at Capital Chowringhee Pvt Ltd's Nikon Experience Zone.",
+    "Capital Chowringhee Pvt Ltd's Nikon Experience Zone in Kolkata. Explore the latest Nikon mirrorless cameras, lenses, speedlights and accessories in person.",
   url: "https://www.capital-chowringhee.com",
   phone: "+91 91630 55161",
   phoneHref: "tel:+919163055161",
@@ -26,6 +26,7 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/customer-gallery", label: "Customers" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
