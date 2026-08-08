@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
-const CUSTOMER_PHOTO_COUNT = 103;
+const CUSTOMER_PHOTO_COUNT = 101;
 const images = Array.from({ length: CUSTOMER_PHOTO_COUNT }, (_, i) => ({
   src: `/images/customers/customer-${i + 1}.jpeg`,
   alt: "Customer at Capital Chowringhee Pvt Ltd, Kolkata",
