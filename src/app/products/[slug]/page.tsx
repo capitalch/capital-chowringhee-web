@@ -10,6 +10,7 @@ import { ProductImagePlaceholder } from "@/components/product-image-placeholder"
 import { ProductCard } from "@/components/product-card";
 import { AnimatedSection } from "@/components/animated-section";
 import { getAllProducts, getProductBySlug } from "@/lib/products";
+import { discountPercent, formatINR } from "@/lib/utils";
 import { siteConfig } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -42,6 +43,8 @@ export default async function ProductPage({
   const related = getAllProducts()
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, 3);
+
+  const off = discountPercent(product.mrp, product.offerPrice);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
@@ -82,9 +85,21 @@ export default async function ProductPage({
             {product.title}
           </h1>
           <p className="mt-3 text-lg text-zinc-400">{product.tagline}</p>
-          <p className="mt-6 text-2xl font-semibold text-amber-300">
-            {product.price}
-          </p>
+          <div className="mt-6 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+            <span className="text-2xl font-semibold text-amber-300">
+              {formatINR(product.offerPrice ?? product.mrp)}
+            </span>
+            {off !== null && (
+              <>
+                <span className="text-base text-zinc-500 line-through">
+                  {formatINR(product.mrp)}
+                </span>
+                <Badge className="border-none bg-emerald-400/10 text-emerald-400">
+                  {off}% off
+                </Badge>
+              </>
+            )}
+          </div>
           <p className="mt-1 text-xs text-zinc-500">
             Indicative price. Please enquire at the store for current
             pricing.

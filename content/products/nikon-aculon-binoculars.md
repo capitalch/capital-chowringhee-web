@@ -3,7 +3,7 @@ title: "Nikon ACULON A211 10x42"
 slug: "nikon-aculon-binoculars"
 category: "Binoculars"
 subcategory: "All-Purpose"
-price: "₹8,995"
+mrp: 8995
 image: ""
 featured: false
 releaseDate: "2015"

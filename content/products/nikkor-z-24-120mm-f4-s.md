@@ -3,7 +3,7 @@ title: "NIKKOR Z 24-120mm f/4 S"
 slug: "nikkor-z-24-120mm-f4-s"
 category: "Lens"
 subcategory: "Travel Zoom"
-price: "₹99,995"
+mrp: 99995
 image: ""
 featured: false
 releaseDate: "2021"

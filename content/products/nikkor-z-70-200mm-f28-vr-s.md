@@ -3,8 +3,9 @@ title: "NIKKOR Z 70-200mm f/2.8 VR S"
 slug: "nikkor-z-70-200mm-f28-vr-s"
 category: "Lens"
 subcategory: "Telephoto Zoom"
-price: "₹2,19,995"
-image: ""
+mrp: 224095
+offerPrice: 197204
+image: "/images/products/nikkor-z-70-200mm-f28-vr-s.jpg"
 featured: false
 releaseDate: "2020"
 tagline: "The definitive sports, wildlife-edge and portrait telephoto."

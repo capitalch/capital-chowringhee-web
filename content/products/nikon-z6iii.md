@@ -3,7 +3,8 @@ title: "Nikon Z6III"
 slug: "nikon-z6iii"
 category: "Mirrorless Camera"
 subcategory: "All-Rounder"
-price: "₹2,04,995"
+mrp: 249795
+offerPrice: 205995
 image: "/images/products/nikon-z6iii.jpg"
 featured: true
 releaseDate: "2024"

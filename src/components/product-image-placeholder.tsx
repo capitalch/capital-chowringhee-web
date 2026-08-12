@@ -1,4 +1,4 @@
-import { Aperture, Camera, Binoculars, Zap } from "lucide-react";
+import { Aperture, Camera, Binoculars, Zap, Cctv, ScanLine, BatteryFull } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const CATEGORY_STYLES: Record<
@@ -20,6 +20,18 @@ const CATEGORY_STYLES: Record<
   Binoculars: {
     icon: Binoculars,
     gradient: "from-zinc-900 via-zinc-800 to-emerald-900/40",
+  },
+  "DSLR Camera": {
+    icon: Cctv,
+    gradient: "from-zinc-900 via-zinc-800 to-rose-900/40",
+  },
+  "Point & Shoot Camera": {
+    icon: ScanLine,
+    gradient: "from-zinc-900 via-zinc-800 to-violet-900/40",
+  },
+  Battery: {
+    icon: BatteryFull,
+    gradient: "from-zinc-900 via-zinc-800 to-lime-900/40",
   },
 };
 

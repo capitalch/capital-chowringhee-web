@@ -3,7 +3,8 @@ title: "Nikon Z50II"
 slug: "nikon-z50ii"
 category: "Mirrorless Camera"
 subcategory: "APS-C"
-price: "₹92,995"
+mrp: 83995
+offerPrice: 75596
 image: "/images/products/nikon-z50ii.jpg"
 featured: false
 releaseDate: "2024"

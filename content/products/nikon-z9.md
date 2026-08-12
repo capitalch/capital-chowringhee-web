@@ -3,7 +3,7 @@ title: "Nikon Z9"
 slug: "nikon-z9"
 category: "Mirrorless Camera"
 subcategory: "Flagship"
-price: "₹4,79,995"
+mrp: 479995
 image: "/images/products/nikon-z9.jpg"
 featured: true
 releaseDate: "2021"

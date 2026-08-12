@@ -3,7 +3,7 @@ title: "Nikon Speedlight SB-700"
 slug: "speedlight-sb-700"
 category: "Speedlight"
 subcategory: "Mid-Range Flash"
-price: "₹32,995"
+mrp: 32995
 image: "/images/products/speedlight-sb-700.jpg"
 featured: false
 releaseDate: "2011"

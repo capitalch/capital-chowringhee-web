@@ -3,7 +3,7 @@ title: "NIKKOR Z DX 18-140mm f/3.5-6.3 VR"
 slug: "nikkor-z-dx-18-140mm"
 category: "Lens"
 subcategory: "APS-C Superzoom"
-price: "₹42,995"
+mrp: 42995
 image: ""
 featured: false
 releaseDate: "2022"

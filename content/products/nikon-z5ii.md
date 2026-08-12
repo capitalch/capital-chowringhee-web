@@ -3,7 +3,8 @@ title: "Nikon Z5II"
 slug: "nikon-z5ii"
 category: "Mirrorless Camera"
 subcategory: "Entry Full-Frame"
-price: "₹1,29,995"
+mrp: 164495
+offerPrice: 154495
 image: "/images/products/nikon-z5ii.png"
 featured: false
 releaseDate: "2025"

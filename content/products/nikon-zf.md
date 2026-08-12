@@ -3,7 +3,7 @@ title: "Nikon Zf"
 slug: "nikon-zf"
 category: "Mirrorless Camera"
 subcategory: "Retro Full-Frame"
-price: "₹1,69,995"
+mrp: 169995
 image: "/images/products/nikon-zf.jpg"
 featured: true
 releaseDate: "2023"

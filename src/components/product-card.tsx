@@ -4,8 +4,11 @@ import { ArrowUpRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { ProductImagePlaceholder } from "@/components/product-image-placeholder";
 import type { Product } from "@/lib/products";
+import { discountPercent, formatINR } from "@/lib/utils";
 
 export function ProductCard({ product }: { product: Product }) {
+  const off = discountPercent(product.mrp, product.offerPrice);
+
   return (
     <Link
       href={`/products/${product.slug}`}
@@ -38,11 +41,23 @@ export function ProductCard({ product }: { product: Product }) {
         <p className="line-clamp-2 flex-1 text-sm text-zinc-400">
           {product.tagline}
         </p>
-        <div className="mt-2 flex items-center justify-between">
-          <span className="text-sm font-semibold text-amber-300">
-            {product.price}
-          </span>
-          <span className="flex items-center gap-1 text-xs font-medium text-zinc-400 group-hover:text-amber-300">
+        <div className="mt-2 flex items-center justify-between gap-2">
+          <div className="flex flex-wrap items-baseline gap-x-2">
+            <span className="text-sm font-semibold text-amber-300">
+              {formatINR(product.offerPrice ?? product.mrp)}
+            </span>
+            {off !== null && (
+              <>
+                <span className="text-xs text-zinc-500 line-through">
+                  {formatINR(product.mrp)}
+                </span>
+                <span className="text-xs font-medium text-emerald-400">
+                  {off}% off
+                </span>
+              </>
+            )}
+          </div>
+          <span className="flex shrink-0 items-center gap-1 text-xs font-medium text-zinc-400 group-hover:text-amber-300">
             View details
             <ArrowUpRight className="size-3.5" />
           </span>

@@ -3,7 +3,7 @@ title: "Nikon Speedlight SB-5000"
 slug: "speedlight-sb-5000"
 category: "Speedlight"
 subcategory: "Professional Flash"
-price: "₹54,995"
+mrp: 54995
 image: ""
 featured: false
 releaseDate: "2016"

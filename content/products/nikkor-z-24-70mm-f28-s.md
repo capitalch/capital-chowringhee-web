@@ -3,7 +3,8 @@ title: "NIKKOR Z 24-70mm f/2.8 S"
 slug: "nikkor-z-24-70mm-f28-s"
 category: "Lens"
 subcategory: "Standard Zoom"
-price: "₹1,89,995"
+mrp: 239195
+offerPrice: 210492
 image: ""
 featured: true
 releaseDate: "2019"

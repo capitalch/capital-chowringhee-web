@@ -16,7 +16,8 @@ export type Product = {
   title: string;
   category: string;
   subcategory?: string;
-  price: string;
+  mrp: number;
+  offerPrice?: number;
   image: string;
   featured: boolean;
   releaseDate: string;
@@ -43,7 +44,8 @@ export function getAllProducts(): Product[] {
       title: data.title as string,
       category: data.category as string,
       subcategory: data.subcategory as string | undefined,
-      price: data.price as string,
+      mrp: Number(data.mrp),
+      offerPrice: data.offerPrice != null ? Number(data.offerPrice) : undefined,
       image: (data.image as string) ?? "",
       featured: Boolean(data.featured),
       releaseDate: data.releaseDate as string,

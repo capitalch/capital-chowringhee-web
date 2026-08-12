@@ -3,7 +3,8 @@ title: "Nikon Z8"
 slug: "nikon-z8"
 category: "Mirrorless Camera"
 subcategory: "Professional"
-price: "₹3,29,995"
+mrp: 343995
+offerPrice: 299495
 image: "/images/products/nikon-z8.jpg"
 featured: true
 releaseDate: "2023"

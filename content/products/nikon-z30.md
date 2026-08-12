@@ -3,7 +3,7 @@ title: "Nikon Z30"
 slug: "nikon-z30"
 category: "Mirrorless Camera"
 subcategory: "Vlogging"
-price: "₹58,995"
+mrp: 58995
 image: "/images/products/nikon-z30.jpg"
 featured: false
 releaseDate: "2022"
